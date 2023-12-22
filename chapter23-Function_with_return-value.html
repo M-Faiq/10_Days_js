@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write("Total Marks 650","<br><br>")
+       function marks(hindi,eng,math,chem,phy,bio){
+        var v = hindi+eng+math+chem+phy+bio
+        return v;
+       }
+       var x = marks(50,70,100,80,97,40);
+       document.write("Marks -" + x + "<br><br>");  
+       
+       function percentage(tm){
+        var tp = tm*100/500
+        return tp;
+       }
+       var z = percentage(x)
+       document.write(z + "%");
+
+        
+        
+    </script>
+</body>
+</html>
